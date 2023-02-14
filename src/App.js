@@ -22,7 +22,7 @@ function App() {
     // todos.splice(index,1);
     setTodos(
       todos.filter((e) => {
-        return e != todo;
+        return e !== todo;
       })
     );
     localStorage.setItem("todos", JSON.stringify(todos));
