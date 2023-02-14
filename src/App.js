@@ -65,7 +65,7 @@ function App() {
     <Route  path='/' element={<Todos todos={todos} onDelete={onDelete} />}/> */}
 
         <Route
-          path="/"
+          path="/home"
           element={
             <>
               <AddTodo addTodo={addTodo} />,
